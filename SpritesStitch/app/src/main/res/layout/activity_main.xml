@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="i2c.ash.spritesstitch.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btn_New"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Photo" />
+
+        <Button
+            android:id="@+id/btn_exist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick Existing" />
+
+        <Button
+            android:id="@+id/btn_crop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crop" />
+
+        <Button
+            android:id="@+id/btn_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
