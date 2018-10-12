@@ -1,6 +1,6 @@
 # Android
 Repository for an old tester android project that has limited working features.
-Needs to be rewritten and restructured. 
+Needs to be rewritten and restructured and here for my own refeance. 
 
 Functional idea was to take photos in either burst mode or individually and stick them together to make a sprite.
 This would be useful for assets for game designers or for people who want to make gifs.
